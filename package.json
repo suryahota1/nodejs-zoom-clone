@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-zoom-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryahota1/nodejs-zoom-clone.git"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "Suryakant Hota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suryahota1/nodejs-zoom-clone/issues"
+  },
+  "homepage": "https://github.com/suryahota1/nodejs-zoom-clone#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "peer": "^1.0.1",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.1"
+  }
+}
